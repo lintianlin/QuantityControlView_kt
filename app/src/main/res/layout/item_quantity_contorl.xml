@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white">
+
+    <com.sinfeeloo.library.QuantityControlView
+        android:id="@+id/quantity_control_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        app:qc_btnHeight="30dp"
+        app:qc_btnWidth="30dp"
+        app:qc_editable="false"
+        app:qc_tvWidth="80dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_item_divider" />
+</RelativeLayout>

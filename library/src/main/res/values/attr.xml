@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuantityControlView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="qc_btnWidth" format="dimension" />
+        <attr name="qc_btnHeight" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="qc_tvWidth" format="dimension" />
+        <attr name="qc_tvTextSize" format="dimension" />
+        <attr name="qc_tvTextColor" format="color" />
+        <attr name="qc_editable" format="boolean" />
+        <attr name="qc_minAmount" format="integer" />
+        <attr name="qc_decrease_bg" format="integer" />
+        <attr name="qc_decrease_unable_bg" format="integer" />
+        <attr name="qc_increase_bg" format="integer" />
+        <attr name="qc_increase_unable_bg" format="integer" />
+        <attr name="qc_bg" format="integer" />
+    </declare-styleable>
+</resources>

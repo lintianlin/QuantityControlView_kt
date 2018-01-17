@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="line_e6e6e6_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#e6e6e6</item>
+    </style>
+    <!--dialog去背景边框-->
+    <style name="DialogStyle">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
